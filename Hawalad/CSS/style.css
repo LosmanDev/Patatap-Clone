@@ -1,0 +1,39 @@
+.bg-color {
+  background-color: whitesmoke;
+}
+
+.bg-footer,
+.bg-message,
+.nav-color {
+  background-color: black;
+}
+
+.bg-rad {
+  border-radius: 4%;
+}
+.bg-footer-text,
+.bg-text {
+  color: whitesmoke;
+}
+
+.bg-imag {
+  border: 10px solid black;
+  border-radius: 4%;
+}
+
+@media (max-width: 568px) {
+  nav h2 {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-text {
+    font-size: 30px !important;
+  }
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+}
